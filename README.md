@@ -1,6 +1,6 @@
 # 🌿 Disease Model API
 
-This project provides an API to detect whether a plant leaf is **healthy (control)** or **diseased**, using **FastAPI** and a trained **ResNet18 model**.
+This project provides an API to detect whether a plant leaf is **healthy (control)** or **diseased**, using **FastAPI** and a trained **CNN model**.
 
 ---
 
