@@ -1,7 +1,10 @@
-fastapi
-uvicorn
+# Use CPU wheels for PyTorch so builds are more predictable
+-f https://download.pytorch.org/whl/cpu/torch_stable.html
 torch
 torchvision
+fastapi
+uvicorn
+gunicorn
 pillow
 numpy
-scikit-learn
+onnxruntime   # optional (fallback) — safe to include
